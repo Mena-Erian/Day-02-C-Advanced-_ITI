@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using Demo.SelfStudy;
+
+namespace Demo
 {
     internal class Program
     {
@@ -67,13 +69,19 @@
             //    Console.WriteLine(employees[i]);
             //}
 
-            Employee e1 = new Employee { Id = 1, Name = "Mena" };
-            Employee e2 = new Employee { Id = 1, Name = "Hamda" };
+            //Employee e1 = new Employee { Id = 1, Name = "Mena" };
+            //Employee e2 = new Employee { Id = 1, Name = "Hamda" };
 
-            if (e1.CompareTo(e2) == 0) Console.WriteLine("Equals");
-            else Console.WriteLine("Not Equals");
+            //if (e1.CompareTo(e2) == 0) Console.WriteLine("Equals");
+            //else Console.WriteLine("Not Equals");
             #endregion
 
+            #region Reimplementing an Interface in a Subclass (Self Study)
+            //IUndoable iUndoable = new TextBox();
+            //RichTextBox richTextBox = new RichTextBox();
+
+            //((IUndoable)richTextBox).Undo(); //From RichTextBox 
+            #endregion
 
         }
     }
