@@ -2,6 +2,10 @@
 {
     internal class Program
     {
+        static void Move(IMoveable moveable)
+        {
+            moveable.Move();
+        }
         static void Main(string[] args)
         {
             #region 
@@ -28,6 +32,22 @@
             /// //int n = (int)myCollection.GetByIndex(2);
             /// myCollection.Print();
             #endregion
+
+            #region Interfaces
+            #region User Define
+            //Humman humman = new Humman();
+            //Car car = new Car();
+
+            //Move(humman);
+            //Move(car); 
+            #endregion
+
+
+
+
+            #endregion
+
+
         }
     }
 }
