@@ -27,8 +27,6 @@ namespace Lab_Day_02
             /// p3.Print();
             /// p1.Print(); 
             #endregion
-
-
         }
     }
 }
