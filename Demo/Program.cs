@@ -42,9 +42,36 @@
             //Move(car); 
             #endregion
 
+            //int[] numbers = { 2, 589, 56, 823710, 387, 9 };
+
+            //Array.Sort(numbers);
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
 
 
+            //Employee[] employees = new Employee[]
+            //{
+            //    new Employee {Id = 2 , Name = "Mena" },
+            //    new Employee {Id = 1 , Name = "Ali" },
+            //    new Employee {Id = 3 , Name = "Hosam" }
+            //};
 
+
+            //Array.Sort(employees);
+
+            //for (int i = 0; i < employees.Length; i++)
+            //{
+            //    Console.WriteLine(employees[i]);
+            //}
+
+            Employee e1 = new Employee { Id = 1, Name = "Mena" };
+            Employee e2 = new Employee { Id = 1, Name = "Hamda" };
+
+            if (e1.CompareTo(e2) == 0) Console.WriteLine("Equals");
+            else Console.WriteLine("Not Equals");
             #endregion
 
 
